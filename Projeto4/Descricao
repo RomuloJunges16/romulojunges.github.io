@@ -1,0 +1,13 @@
+- Nossa API por enquanto insere utilizando arquivos json de "users", "campeonatos(champs)" e "news" através das urls: 
+	POST
+	--http://localhost/users/register
+	--http://localhost/champs/register
+	--http://localhost/news/register
+
+- Lista "users", "campeonatos(champs)" e "news" através das urls:
+	GET
+	-- http://localhost/users/info?name=cebola
+	-- http://localhost/champs/info?name=CSGO-DREAMHACKS
+	-- http://localhost/news/info?title=API DE ULTIMA HORA
+
+- usuario do mongo->    user:user
